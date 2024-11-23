@@ -2,6 +2,7 @@ import { Router } from "express";
 import { userRoter } from "./user";
 import { adminRouter } from "./admin";
 import { spaceRouter } from "./space";
+import client from "@metaverse/db/client"
 
 export const router = Router()
 
